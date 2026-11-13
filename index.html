@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OYE KANISHKA kya krr rhi 🤣🤣</title>
+  <meta name="description" content="Nikhil Mehra is a freelance web designer who builds websites for local businesses in India.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top">OYE KANISHKA kya krr rhi 🤣🤣</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button class="theme-btn" id="themeBtn" type="button">Dark</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-text">
+        <h1>I design and build websites for local businesses.</h1>
+        <p>Hi, I'm Nikhil Mehra, a first-year IT engineering student and freelance web designer in India. I turn a business's details into a clean, fast website that works on every phone.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">See my work</a>
+          <a class="btn" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="browser" id="browser" aria-hidden="true">
+        <div class="browser-bar"><span></span><span></span><span></span><em>yourbusiness.in</em></div>
+        <div class="browser-body">
+          <div class="b-hero"></div>
+          <div class="b-row"><i></i><i></i><i></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <h2>About me</h2>
+      <div class="about-grid">
+        <p>I'm studying Information Technology and building websites alongside my classes. I find local businesses, make a demo site for them, and show them what their online presence could look like.</p>
+        <p>I care about simple layouts, readable text and pages that load quickly. <!-- EDIT: add 1-2 lines about yourself, your goals or what you're learning. --></p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <div class="skill-groups">
+        <div>
+          <h3>Build</h3>
+          <ul class="pills"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Responsive design</li></ul>
+        </div>
+        <div>
+          <h3>Design</h3>
+          <ul class="pills"><li>Page layout</li><li>Typography</li><li>Colour palettes</li></ul>
+        </div>
+        <div>
+          <h3>Work</h3>
+          <ul class="pills"><li>Client communication</li><li>Fast delivery</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <h2>Projects</h2>
+      <!-- EDIT: replace titles, text and links with your real projects. -->
+      <div class="cards">
+        <article class="card">
+          <div class="thumb t1"></div>
+          <h3>Cafe website</h3>
+          <p>A one-page site with menu, photos, opening hours and a map.</p>
+          <ul class="tags"><li>HTML</li><li>CSS</li></ul>
+          <a class="link" href="#">View project</a>
+        </article>
+        <article class="card">
+          <div class="thumb t2"></div>
+          <h3>Salon booking page</h3>
+          <p>A mobile-first page with services, prices and a WhatsApp booking button.</p>
+          <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          <a class="link" href="#">View project</a>
+        </article>
+        <article class="card">
+          <div class="thumb t3"></div>
+          <h3>Study planner app</h3>
+          <p>A web app where a guardian sets study goals and a student checks them off.</p>
+          <ul class="tags"><li>JavaScript</li><li>Web app</li></ul>
+          <a class="link" href="#">View project</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div>
+          <p>Have a business that needs a website? Send me a message and I'll reply within a day.</p>
+          <ul class="contact-links">
+            <li><a href="mailto:your.email@example.com">your.email@example.com</a></li>
+            <li><a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a></li>
+          </ul>
+        </div>
+        <form class="form" id="contactForm">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" required autocomplete="name">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button class="btn primary" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Nikhil Mehra</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
